@@ -1,3 +1,3 @@
 # Digital_Clock
-Learning QT with C++ 
+******************Learning QT with C++*******************
 QT 5
