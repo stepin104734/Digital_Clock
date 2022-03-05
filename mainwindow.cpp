@@ -10,7 +10,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     QTimer *timer = new QTimer(this);
     timer->start(1000);
-    connect(timer, SIGNAL(timeout()), this, SLOT(hi()));
+    connect(timer, SIGNAL(timeout()), this, SLOT(hi()));//creating a timer pipe
 }
 
 void MainWindow::hi()
