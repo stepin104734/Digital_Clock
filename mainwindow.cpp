@@ -16,7 +16,7 @@ MainWindow::MainWindow(QWidget *parent)
 void MainWindow::hi()
 {
     QDateTime T;
-    ui->label->setText(T.currentDateTime().toString());
+    ui->label->setText(T.currentDateTime().toString());//to change dynamic date and time
 }
 
 
